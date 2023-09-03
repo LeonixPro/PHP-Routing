@@ -3,7 +3,6 @@
 require './core/functions.php';
 $uri = $_SERVER['REQUEST_URI'];
 
-
 $routes = [
     '/' => 'controllers/home.php',
     '/about' => 'controllers/about.php',
